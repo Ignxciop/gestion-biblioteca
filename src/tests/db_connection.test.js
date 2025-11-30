@@ -1,4 +1,4 @@
-import pool from "../config/config.js";
+import { pool } from "../config/config.js";
 
 async function testConnection() {
     try {

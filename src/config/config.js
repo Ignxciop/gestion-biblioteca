@@ -13,4 +13,8 @@ const pool = new Pool({
     database: process.env.DB_NAME,
 });
 
-export default pool;
+const token_jwt = process.env.JWT_SECRET;
+
+const port = process.env.PORT;
+
+export { pool, token_jwt, port };
