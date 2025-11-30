@@ -9,23 +9,24 @@ importers:
   .:
     dependencies:
       bcryptjs:
-        specifier: ^3.0.3
+        specifier: 3.0.3
         version: 3.0.3
       dotenv:
-        specifier: ^17.2.3
+        specifier: 17.2.3
         version: 17.2.3
       express:
-        specifier: ^5.1.0
+        specifier: 5.1.0
         version: 5.1.0
       jsonwebtoken:
-        specifier: ^9.0.2
+        specifier: 9.0.2
         version: 9.0.2
+      pg:
+        specifier: 8.16.3
+        version: 8.16.3
+    devDependencies:
       nodemon:
         specifier: ^3.1.11
         version: 3.1.11
-      pg:
-        specifier: ^8.16.3
-        version: 8.16.3
 
 packages:
 
